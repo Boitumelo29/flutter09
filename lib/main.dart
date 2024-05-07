@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
               child: Column(
                 children: [
                   Image.asset('images/codepassionately.png'),
-                  Text(
+                  const Text(
                     'Code Passionately',
                     style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                   ),
