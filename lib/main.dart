@@ -22,19 +22,20 @@ class _MyAppState extends State<MyApp> {
                     children: [
           // Screenshot(
           //   controller: _screenshotController,
-          //   child: Card(
-          //       child: Padding(
-          //     padding: EdgeInsets.all(16),
-          //     child: Column(
-          //       children: [
-          //         Image.asset('images/codepassionately.png'),
-          //         Text(
-          //           'Code Passionately',
-          //           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-          //         ),
-          //       ],
-          //     ),
-          //   )),
+          //child:
+          Card(
+              child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Column(
+              children: [
+                Image.asset('images/codepassionately.png'),
+                Text(
+                  'Code Passionately',
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
+          )),
           // ),
           TextButton(
             child: Text('Take Screenshot and Share'),
